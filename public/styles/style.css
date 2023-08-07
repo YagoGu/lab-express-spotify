@@ -1,4 +1,41 @@
 img {
-    width: 5vw;
+    width: 15vw;
     height: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container{
+    background-color: gray;
+    width: 15vw;
+    height: 22.5vw;
+    text-align: center;
+    margin: 2%;
+}
+
+h1 {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: brown;
+    padding: 0.5vw;
+    border-radius: 1vw;
+    margin: 5vw 0;
+}
+
+.audio {
+    display: flex;
+    flex-direction: row;
+    padding: 2.5% 0;
+    background-color: lightgray;
+    margin-bottom: 2.5%;
+    justify-content: space-between;
 }

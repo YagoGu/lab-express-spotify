@@ -1,5 +1,7 @@
-<p>{{this.name}}</p>
-{{#with images.[0]}}
-    <img src="{{url}}" alt="no image">
-{{/with}}
-<a href="/tracks/{{this.id}}">View songs</a>
+<div class="container">
+    {{#with images.[0]}}
+        <img src="{{url}}" alt="no image">
+    {{/with}}
+    <p>{{this.name}}</p>
+    <a href="/tracks/{{this.id}}">View songs</a>
+</div>
